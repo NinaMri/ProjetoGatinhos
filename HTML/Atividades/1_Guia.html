@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Títulos - Feito por NINAAA</title>
+    <style type="text/css">
+		body{
+			background-color: rgb(181, 211, 227); /* Cor de fundo */
+        }
+
+        body::before {
+            content: ""; 
+            /* Contúdo: É obrigatório para que o pseudo-elemento (::before) seja criado e visível. Deixamos vazio ("") porque ele só será usado para a imagem. */
+            position: fixed; 
+            /* Posição: 'fixed' faz com que o elemento cubra toda a janela (viewport) e permaneça fixo mesmo com a rolagem da página. */
+            inset: 0; 
+            /* Uma forma moderna de definir 'top: 0; right: 0; bottom: 0; left: 0;'. Força o elemento fixo a se expandir por toda a tela (0 em todas as bordas). */
+            background: url(https://images.vexels.com/media/users/3/266510/isolated/preview/9a6acdc00a2b46ac1566cef30ab80d68-ceifador-kawaii-de-acidente-vascular-cerebral-de-halloween.png);
+            /* Imagem de fundo */
+            background-repeat: no-repeat; 
+            /* Garante que a imagem não se repita caso seja menor que o elemento */
+			background-position: right bottom; 
+            /* Posiciona a imagem no canto inferior direito */
+			background-size: 30%; 
+            /* Define o tamanho da imagem */
+            opacity: 0.3; 
+            /* Controla a transparência */
+            z-index: -1; 
+            /* Coloca atrás do conteúdo */  
+            pointer-events: none; 
+            /* Garante que o elemento de fundo (mesmo que cubra a tela) não possa ser clicado ou interaja com o mouse, permitindo o clique nos elementos que estão *abaixo* dele.(irrelevante nesse projeto) */       
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Título principal -->
+    <h1>Guia de Estudo: Desenvolvimento Web</h1>
+
+    <!-- Subtitulo -->
+    <h2>Capítulo 1: Fundamentos da Web</h2>
+
+    <h3>O que é a Web</h3>
+    <p>A <b>Web</b> é uma <strong>rede mundial de computadores conectados</strong>. Ela permite o compartilhamento de informações e serviços em escala global.</p>
+
+    <h3>Como funcionam os sites</h3>
+    Os <b>sites</b> são compostos por arquivos armazenados em <em>servidores</em> e acessados por <em>navegadores</em>.
+
+    <hr> <!-- Separador de capítulos -->
+
+    <h2>Capítulo 2: Linguagens da Web</h2>
+
+    <h3>HTML - Estrutura</h3>
+    <p>O <b>HTML</b> define a <strong>estrutura</strong> de uma página, organizando <em>títulos</em>, <em>parágrafos</em>, <em>imagens</em> e <em>links</em>.</p>
+
+    <h3>CSS - Estilo</h3>
+    <p>O <b>CSS</b> é usado para <strong>definir</strong> <em>cores</em>, <em>fontes</em> e <em>layouts</em>.</p>
+
+    <h3>JavaScript - Interatividade</h3>
+    <p>O <b>JavaScript</b> adiciona <strong>comportamento</strong> e <strong>interatividade</strong> às páginas da Web.</p>
+
+    <hr>
+
+    <h2>Capítulo 3: Boas Práticas</h2>
+
+    <h3>A importância da semântica</h3>
+    <p>Usar as tags corretas torna o código mais <em>acessível</em> e <em>compreensível</em>.</p>
+
+    <h3>Comentários e organização</h3>
+    <p>Comente seu código e mantenha uma <em>estrutura limpa</em>.</p>
+
+    <!-- Exemplo de subtópico -->
+    <h4>Dica extra</h4>
+    <p>Organizar seu código ajuda a manter um fluxo de trabalho mais eficiente!</p>
+
+    <hr>
+
+    <h2>Conclusão</h2>
+    <p>Aprender desenvolvimento web é o <em>primeiro passo para criar experiências incríveis</em> na internet.</p>
+
+</body>
+</html>
+
